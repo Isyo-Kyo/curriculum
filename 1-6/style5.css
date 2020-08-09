@@ -1,0 +1,117 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* recet.css-start */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* receet.css-finish */
+
+body{
+    min-height: 100%;
+    height: 100%;
+}
+.wrapper{
+    height: 600px;
+    width: 600px;
+    margin:0;
+}
+.header{
+    width: 100%;
+    height: 150px;
+    background-color:#ffff00;
+}
+.contents{
+    width: 100%;
+    height: 50%;
+}
+.contents-upper{
+    width: 100%;
+    height: 50%;
+}
+.left-center{
+    float: left;
+    width: calc(200%/3);
+    height: 100%;
+}
+.right1{
+    float: right;
+    width: calc(100%/3);
+    height: 100%;
+    background-color:#0000ff;
+}
+.left1{
+    float: left;
+    height: 100%;
+    width: 50%;
+    background-color:#33ffff;
+}
+.center{
+    float: right;
+    height: 100%;
+    width: 50%;
+    background-color:#ff0000;
+}
+
+.contents-lower{
+    width:100%;
+    height: 50%;
+}
+.left2{
+    float: left;
+    width: calc(300%/4);
+    height: 100%;
+    background-color:#00ff00;
+}
+.right2{
+    float: right;
+    width: calc(100%/4);
+    height: 100%;
+    background-color:#ff00ff;
+}
+.footer{
+    width: 100%;
+    height: calc(100%/4);
+    background-color:#33ffff;
+}
